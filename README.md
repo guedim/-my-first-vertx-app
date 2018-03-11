@@ -8,10 +8,14 @@
  
  To run the message base microservices, follow the next steps:
  
-##Server message base:
- 1) cd hello-microservice-message
- 2) mvn compile vertx:run -Dvertx.runArgs="-cluster -Djava.net.preferIPv4Stack=true"
+## Server message base:
+``` shell
+ foo@bar:~$cd hello-microservice-message
+ foo@bar:~$mvn compile vertx:run -Dvertx.runArgs="-cluster -Djava.net.preferIPv4Stack=true"
+```
 
-##Client message base:
- 1) cd hello-consumer-microservice-message
- 2) mvn compile vertx:run -Dvertx.runArgs="-cluster -Djava.net.preferIPv4Stack=true"
+## Client message base:
+``` shell
+ foo@bar:~$cd hello-consumer-microservice-message
+ foo@bar:~$mvn compile vertx:run -Dvertx.runArgs="-cluster -Djava.net.preferIPv4Stack=true"
+``` 
